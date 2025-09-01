@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.cards{
+    position:absolute;
+    top:50%;
+    left:50%;
+   transform:translate(-50%,-50%);
+    height: 300px;
+    width: 200px;
+
+    border:2px solid black;
+    
+    border-radius: 20px;
+}
+#one{
+    background-image: "C:\Users\dell\OneDrive\Desktop\photos\photos1.jpg";
+    z-index: 5;
+}
+#two{
+    rotate:-7deg;
+}
+#three{
+   rotate:-14deg; 
+}
+#four{
+    z-index:10;
+    
+    rotate:-21deg;
+}

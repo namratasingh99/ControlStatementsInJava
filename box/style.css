@@ -1,0 +1,41 @@
+
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.box{
+    border:2px solid black;
+    height:100px;
+    width:100px;
+    margin:10px;
+    
+}
+
+#one:hover{
+     background-color: red;
+}
+#two:hover{
+    background-color: blue;
+}
+#three:hover{
+     background-color: green;
+}
+#one{
+    margin-bottom:30px;
+}
+#two{
+    transform:rotate(45deg);
+    
+}
+#three{
+
+     border-radius:50%;
+}
